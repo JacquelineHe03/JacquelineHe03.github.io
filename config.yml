@@ -8,3 +8,9 @@ languages:
     zh:
     	languageName: "中文"
         contentDir: content/Chinese
+menu:
+	main:
+		-identifier: Search
+		name: Search
+		url: search
+		weight: ...
