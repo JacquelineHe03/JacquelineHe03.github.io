@@ -1,0 +1,10 @@
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+    en:
+        languageName: "English"
+        contentDir: content/English
+    zh:
+    	languageName: "中文"
+        contentDir: content/Chinese
