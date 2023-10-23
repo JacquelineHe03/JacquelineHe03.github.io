@@ -8,16 +8,19 @@
 	</head>
 	<body>
 	  <div class="container">
-	    <ul>
-		<li class="layer"><img src="img/planet1.png"></li>
-		<li class="layer"><img src="img/planet2.png"></li>
-		<li class="layer"><img src="img/man.png"></li>
-		<li class="layer"><img src="img/earth.png"></li>
-		<li class="layer"><img src="img/planet3.png"></li>
-		<li class="layer"><img src="img/planet4.png"></li>
-		<li class="layer"><img src="img/planet5.png"></li>
+	    <ul id="scene">
+		<li class="layer"data-depth="2"><img src="img/planet1.png"></li>
+		<li class="layer"data-depth="3"><img src="img/planet2.png"></li>
+		<li class="layer"data-depth="2"><img src="img/man.png"></li>
+		<li class="layer"data-depth="5"><img src="img/earth.png"></li>
+		<li class="layer"data-depth="1"><img src="img/planet3.png"></li>
+		<li class="layer"data-depth="4"><img src="img/planet4.png"></li>
+		<li class="layer"data-depth="8"><img src="img/planet5.png"></li>
            <ul>
 	</div>
+        <script>
+	 var scene=document.getElementByid("scene");
+	 var parallax=new Parallax(scene);
     </body></html>
 			
 	
